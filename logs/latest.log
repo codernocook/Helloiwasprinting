@@ -1,0 +1,280 @@
+[10:14:43] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:14:46] [Worker-Main-6/INFO]: Loaded 7 recipes
+[10:14:48] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[10:14:48] [Server thread/INFO]: Loading properties
+[10:14:49] [Server thread/INFO]: This server is running CraftBukkit version 3463-Spigot-ffceeae-953d3dd (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
+[10:14:49] [Server thread/INFO]: Debug logging is disabled
+[10:14:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:14:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:14:49] [Server thread/INFO]: Default game type: SURVIVAL
+[10:14:49] [Server thread/INFO]: Generating keypair
+[10:14:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:14:49] [Server thread/INFO]: Using default channel type
+[10:14:50] [Server thread/ERROR]: Could not load 'plugins\AntiCheatReloaded.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:406) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3463-Spigot-ffceeae-953d3dd]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:232) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3463-Spigot-ffceeae-953d3dd]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1007) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3463-Spigot-ffceeae-953d3dd]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.2-R0.1-SNAPSHOT.jar:3463-Spigot-ffceeae-953d3dd]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[10:14:51] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[10:14:51] [Server thread/INFO]: [voicechat] Loading voicechat v1.18.2-2.2.26
+[10:14:51] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.10
+[10:14:51] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[10:14:51] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.9+e20e013
+[10:14:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7128ef8f]
+[10:14:52] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[10:14:52] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
+[10:14:52] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.14.0
+[10:14:53] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (864 ms).
+[10:14:53] [Server thread/WARN]: [Shopkeepers] Incompatible server version: v1_18_R2 (mappings: eaeedbff51b16ead3170906872fda334)
+[10:14:53] [Server thread/WARN]: [Shopkeepers] Shopkeepers is trying to run in 'compatibility mode'.
+[10:14:53] [Server thread/INFO]: [Shopkeepers] Check for updates at: https://dev.bukkit.org/projects/shopkeepers/
+[10:14:53] [Server thread/INFO]: [Shopkeepers] Loading config.
+[10:14:54] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[10:14:54] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[10:14:54] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[10:14:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:14:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:14:54] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:14:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.9+e20e013
+[10:14:54] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:14:54] [Server thread/INFO]: WEPIF: Updated config file
+[10:14:54] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[10:14:55] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[10:14:55] [Server thread/INFO]: [WorldEdit] ====================================================
+[10:14:55] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[10:14:55] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[10:14:55] [Server thread/INFO]: [WorldEdit]   
+[10:14:55] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[10:14:55] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[10:14:55] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[10:14:55] [Server thread/INFO]: [WorldEdit]   
+[10:14:55] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[10:14:55] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[10:14:55] [Server thread/INFO]: [WorldEdit]   
+[10:14:55] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[10:14:55] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[10:14:55] [Server thread/INFO]: [WorldEdit]   
+[10:14:55] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[10:14:55] [Server thread/INFO]: [WorldEdit] ====================================================
+[10:14:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:14:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:14:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:14:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:14:55] [Server thread/INFO]: Preparing level "world"
+[10:14:56] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:14:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:14:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:14:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:14:56] [Server thread/INFO]: Simulation Distance: 10
+[10:14:56] [Server thread/INFO]: View Distance: 10
+[10:14:56] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:14:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:14:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:14:56] [Server thread/INFO]: Max TNT Explosions: 100
+[10:14:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:14:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:14:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:14:56] [Server thread/INFO]: Mob Spawn Range: 6
+[10:14:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:14:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:14:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:14:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:15:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:15:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:15:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:15:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:15:00] [Server thread/INFO]: Simulation Distance: 10
+[10:15:00] [Server thread/INFO]: View Distance: 10
+[10:15:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:15:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:15:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:15:00] [Server thread/INFO]: Max TNT Explosions: 100
+[10:15:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:15:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:15:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Mob Spawn Range: 6
+[10:15:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:15:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:15:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:15:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:15:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:15:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:15:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:15:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:15:00] [Server thread/INFO]: Simulation Distance: 10
+[10:15:00] [Server thread/INFO]: View Distance: 10
+[10:15:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:15:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:15:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:15:00] [Server thread/INFO]: Max TNT Explosions: 100
+[10:15:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:15:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:15:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:15:00] [Server thread/INFO]: Mob Spawn Range: 6
+[10:15:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:15:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:15:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:15:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:15:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:15:02] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[10:15:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:15:02] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[10:15:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:15:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:15:03] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:15:03] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:15:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[10:15:05] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[10:15:05] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[10:15:05] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[10:15:06] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[10:15:06] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[10:15:07] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[10:15:07] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[10:15:08] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[10:15:08] [Worker-Main-5/INFO]: Preparing spawn area: 25%
+[10:15:09] [Worker-Main-4/INFO]: Preparing spawn area: 58%
+[10:15:10] [Worker-Main-6/INFO]: Preparing spawn area: 80%
+[10:15:10] [Worker-Main-4/INFO]: Preparing spawn area: 88%
+[10:15:10] [Server thread/INFO]: Time elapsed: 9831 ms
+[10:15:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:15:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:15:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[10:15:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:15:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:15:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:15:13] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[10:15:14] [Worker-Main-6/INFO]: Preparing spawn area: 39%
+[10:15:14] [Server thread/INFO]: Time elapsed: 3983 ms
+[10:15:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:15:15] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:15:15] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:15:16] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[10:15:16] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:15:16] [Worker-Main-4/INFO]: Preparing spawn area: 36%
+[10:15:17] [Server thread/INFO]: Time elapsed: 2352 ms
+[10:15:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[10:15:17] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[10:15:17] [Server thread/INFO]: [ClearLag] Config not found. Generating default config...
+[10:15:17] [Server thread/INFO]: [ClearLag] Loading modules...
+[10:15:17] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_18_R2.MinecraftServer)
+[10:15:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[10:15:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[10:15:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[10:15:17] [Server thread/INFO]: [voicechat] Enabling voicechat v1.18.2-2.2.26
+[10:15:17] [Server thread/INFO]: Compatibility version 14
+[10:15:17] [Server thread/INFO]: Loading translations
+[10:15:17] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.18]...
+[10:15:17] [Server thread/INFO]: Successfully initialized commodore command completion
+[10:15:17] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.10
+[10:15:17] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[10:15:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
+[10:15:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[10:15:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[10:15:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[10:15:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[10:15:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[10:15:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[10:15:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[10:15:19] [Server thread/INFO]: [WorldGuard] Loading region data...
+[10:15:19] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[10:15:19] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[10:15:19] [Server thread/INFO]: [WorldGuard] Loading region data...
+[10:15:19] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[10:15:19] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.14.0
+[10:15:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:15:20] [Server thread/INFO]: Done (24.650s)! For help, type "help"
+[10:15:20] [Server thread/INFO]: Stopping server
+[10:15:20] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.14.0
+[10:15:20] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[10:15:20] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[10:15:20] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
+[10:15:20] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[10:15:20] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[10:15:20] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.10
+[10:15:20] [Server thread/INFO]: [voicechat] Disabling voicechat v1.18.2-2.2.26
+[10:15:20] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[10:15:20] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[10:15:20] [Server thread/INFO]: Saving players
+[10:15:20] [Server thread/INFO]: Saving worlds
+[10:15:20] [Thread-9/INFO]: [ClearLag] No updates found!
+[10:15:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:15:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
